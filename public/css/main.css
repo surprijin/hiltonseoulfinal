@@ -419,34 +419,34 @@ body {
 .main_offerM>ul{
     width: 85.3%;
 }
-.main_offerM>ul>li{
+.main_offerM>ul>li>a{
     width: 100%;
     margin: auto;
 }
-.main_offerM>ul>li>figure{
+.main_offerM>ul>li>a>figure{
     padding-top: 50%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center;
     border: 1px solid #B0AFAF;
 }
-.main_offerM>ul>li>div{
+.main_offerM>ul>li>a>div{
     text-align: center;
     padding: 20px 0;
     background-color: #fff;
     filter: drop-shadow(1px 1px 10px #B0AFAF);  
 }       
-.main_offerM>ul>li>div>h5{
+.main_offerM>ul>li>a>div>h5{
     font-size: 20px;
     color: #494949;
     font-weight: 500;
 }
-.main_offerM>ul>li>div>h6{
+.main_offerM>ul>li>a>div>h6{
     font-size: 16px;
     color: #494949;
     margin-top: 8px;
 }
-.main_offerM>ul>li>div>p{
+.main_offerM>ul>li>a>div>p{
     font-size: 16px;
     color: #B0AFAF;
     margin-top: 4px;
@@ -573,25 +573,25 @@ body {
 .main_roomtypeM>ul{
     width: 85.3%;
 }
-.main_roomtypeM>ul>li>figure{
+.main_roomtypeM>ul>li>a>figure{
     padding-top: 50%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center;
 }
-.main_roomtypeM>ul>li>div{
+.main_roomtypeM>ul>li>a>div{
     text-align: center;
     padding: 20px 75px;
     box-sizing: border-box;
     background-color: #fff;
     filter: drop-shadow(1px 1px 10px #B0AFAF);  
 }
-.main_roomtypeM>ul>li>div>h5{
+.main_roomtypeM>ul>li>a>div>h5{
     font-size: 20px;
     color: #494949;
     font-weight: 500;
 }
-.main_roomtypeM>ul>li>div>h6{
+.main_roomtypeM>ul>li>a>div>h6{
     font-size: 16px;
     color: #B0AFAF;
     margin-top: 8px;
@@ -925,7 +925,7 @@ opacity: 90%;
     .spin_barM{
         display: flex;
     }
-    .main_roomtypeM>ul>li>div{
+    .main_roomtypeM>ul>li>a>div{
         padding: 20px;
     }
     .main_roomtype_wrap{
@@ -936,7 +936,7 @@ opacity: 90%;
         justify-content: space-between;
         align-items: center;
     }
-    .main_roomtypeM>ul>li>div>h6{
+    .main_roomtypeM>ul>li>a>div>h6{
         font-size: 14px;
     }
     .promo_nav{
@@ -1065,21 +1065,21 @@ opacity: 90%;
         padding: 5px 10px;
     }
     /****/
-    .main_offerM>ul>li>div>h5{
+    .main_offerM>ul>li>a>div>h5{
         font-size: 16px;
     }
-    .main_offerM>ul>li>div>h6{
+    .main_offerM>ul>li>a>div>h6{
         font-size: 12px;
         margin-top: 4px;
     }
-    .main_offerM>ul>li>div>p{
+    .main_offerM>ul>li>a>div>p{
         font-size: 12px;
     }
     /****/
-    .main_roomtypeM>ul>li>div>h5{
+    .main_roomtypeM>ul>li>a>div>h5{
         font-size: 16px;
     }
-    .main_roomtypeM>ul>li>div>h6{
+    .main_roomtypeM>ul>li>a>div>h6{
         font-size: 12px;
         /* display: -webkit-box
         -webkit-box-orient: vertical

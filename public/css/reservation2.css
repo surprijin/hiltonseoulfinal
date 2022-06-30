@@ -241,12 +241,19 @@
   display: block;
   width: 160px;
   margin: 80px auto 0;
-  color: #fff;
-  background: #19344d;
+  color: #494949;
+  background: transparent;
   text-align: center;
   padding: 14px 0;
   margin-bottom: 50px;
-  border: none;
+  border: 1px solid rgb(118, 118, 118);
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.rsv_apply:hover {
+  background-color: rgb(118, 118, 118);
+  color: #fff;
 }
 /* ------------------------------------------------------------------------ */
 
